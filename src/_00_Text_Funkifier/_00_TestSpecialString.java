@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+	SpecialString falc = new FirstAndLastCaps("My teacher is a sadistic pig who unintelligently blurts churlish thoughts about his students!");
+	System.out.println(falc);
+	assertEquals("MY TeacheR IS A SadistiC PiG WhO UnintelligentlY BlurtS ChurlisH ThoughtS AbouT HiS Students!", falc.toString());
 	}
 }
